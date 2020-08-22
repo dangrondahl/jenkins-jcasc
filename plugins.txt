@@ -1,0 +1,13 @@
+jdk-tool:1.4
+credentials:2.3.12
+trilead-api:latest
+plain-credentials:latest
+structs:latest
+configuration-as-code:latest
+matrix-auth:latest
+pipeline-github:latest
+blueocean:latest
+cloudbees-bitbucket-branch-source:latest
+github:latest
+build-user-vars-plugin:latest
+pipeline-stage-view:latest

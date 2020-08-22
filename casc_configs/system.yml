@@ -1,0 +1,30 @@
+jenkins:
+  systemMessage: "Jenkins configured automatically by Jenkins Configuration as Code plugin\n\n"
+  numExecutors: 3
+
+  securityRealm:
+    local:
+      allowsSignup: false
+      users:
+       - id: ${adminuser:-demoAdmin}
+         password: ${adminpw:-passw0rd}
+
+  authorizationStrategy:
+      projectMatrix:
+        permissions:
+        - "Overall/Administer:demoAdmin"
+
+  crumbIssuer: "standard"
+
+  remotingSecurity:
+    enabled: true
+
+unclassified:
+  buildDiscarders:
+    configuredBuildDiscarders:
+    - "jobBuildDiscarder"
+  location:
+    adminAddress: "address not configured yet <nobody@nowhere>"
+    url: "http://localhost:8080/"
+  pollSCM:
+    pollingThreadCount: 10
