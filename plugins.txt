@@ -1,5 +1,5 @@
-jdk-tool:1.4
-credentials:2.3.12
+jdk-tool:latest
+credentials:latest
 trilead-api:latest
 plain-credentials:latest
 structs:latest
@@ -11,3 +11,5 @@ cloudbees-bitbucket-branch-source:latest
 github:latest
 build-user-vars-plugin:latest
 pipeline-stage-view:latest
+job-dsl:latest
+cloudbees-bitbucket-branch-source
