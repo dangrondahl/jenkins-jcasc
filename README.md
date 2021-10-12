@@ -9,7 +9,6 @@ docker-compose up -d
 ```
 
 - Jenkins: http://localhost:8080 (`demoAdmin` / `passw0rd`)
-- SonarQube: http://localhost:9000 (`admin` / `admin`)
 
 ## Getting Jenkins plugins
 
